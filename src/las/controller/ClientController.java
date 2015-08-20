@@ -37,6 +37,6 @@ public interface ClientController extends Remote {
 
     public int getnextOwnershiPositionGrant(String grantNumber) throws RemoteException, SQLException,ClassNotFoundException;
     
-    
+    public boolean deleteClient(Client client) throws ClassNotFoundException, SQLException,RemoteException ;
   
 }
