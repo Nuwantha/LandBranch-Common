@@ -34,7 +34,7 @@ public interface GrantController extends Remote {
 
     public ArrayList<Grant> getSimilarGrantsByName(String namepart) throws RemoteException, ClassNotFoundException, SQLException;
 
-    public ArrayList<Grant> getSimilarPermitsByNIC(String nicpart) throws RemoteException, ClassNotFoundException, SQLException;
+    public ArrayList<Grant> getSimilarGrantsByNIC(String nicpart) throws RemoteException, ClassNotFoundException, SQLException;
 
     public  boolean changeNominatedSuccessorGrant(Grant grant, NominatedSuccessor newSuccessor) throws RemoteException,ClassNotFoundException, SQLException;
     
