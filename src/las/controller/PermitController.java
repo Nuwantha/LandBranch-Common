@@ -49,4 +49,7 @@ public interface PermitController extends Remote {
     public boolean changePermitOwnership(Permit permit) throws ClassNotFoundException, SQLException, RemoteException;
 
     public boolean addGramaNiladaryCertificateToPermit(Permit permit) throws RemoteException, ClassNotFoundException, SQLException;
+    
+    
+    public ArrayList<Permit> getAllPermitsReadytoGrant() throws RemoteException,ClassNotFoundException, SQLException;
 }
