@@ -39,4 +39,5 @@ public interface GramaNiladariDivisionController extends Remote {
 
     public ArrayList<Permit> getPermitsToCertify(String divisionnumber) throws RemoteException,SQLException, ClassNotFoundException;
 
+    public ArrayList<Permit> getAllPermitsToCertify() throws RemoteException,SQLException, ClassNotFoundException;
 }
